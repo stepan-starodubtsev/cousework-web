@@ -9,7 +9,7 @@ export default function GalleryList() {
     useEffect(() => {
         const getImages = async () => {
             try {
-                const baseURL = `http://localhost:5001/photos/gallery/img`;
+                const baseURL = `http://206.189.52.50:5001/photos/gallery/img`;
                 const imageCount = 6;
                 const generatedImages = Array.from({ length: imageCount }, (_, index) => {
                     if (index % 1 === 0) {

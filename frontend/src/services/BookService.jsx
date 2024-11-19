@@ -1,7 +1,7 @@
 import { checkTokenAndRedirect } from './AuthService';
 
-const API_URL_BOOKS = `http://localhost:5001/api/books`;
-const API_URL_VISITORS = `http://localhost:5001/api/visitors`;
+const API_URL_BOOKS = `http://206.189.52.50:5001/api/books`;
+const API_URL_VISITORS = `http://206.189.52.50:5001/api/visitors`;
 
 export async function fetchBooks() {
   const token = localStorage.getItem('jwtToken');

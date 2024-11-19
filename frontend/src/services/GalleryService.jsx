@@ -1,7 +1,7 @@
 import { checkTokenAndRedirect } from "./AuthService";
 
 // GalleryService.jsx
-const API_URL = `http://localhost:5001/api/photos`;
+const API_URL = `http://206.189.52.50:5001/api/photos`;
 
 export const fetchImages = async () => {
     const token = localStorage.getItem('jwtToken');

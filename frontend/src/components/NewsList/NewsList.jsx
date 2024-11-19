@@ -34,7 +34,7 @@ export default function NewsList() {
         <div className="news-container">
             {news.map((item, index) => (
                 <div key={index} className="news-card">
-                    <img src={`http://localhost:5001/photos/news/${item.photo}`} alt="News" className="news-image"/>
+                    <img src={`http://206.189.52.50:5001/photos/news/${item.photo}`} alt="News" className="news-image"/>
                     <div className="news-content">
                         <h3 className="news-title">{item.title}</h3>
                         <p className="news-text">{item.text}</p>

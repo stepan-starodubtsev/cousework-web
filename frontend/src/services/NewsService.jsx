@@ -1,5 +1,5 @@
 
-const API_URL = 'http://localhost:5001/api/news';
+const API_URL = 'http://206.189.52.50:5001/api/news';
 
 export const fetchNews = async () => {
     const config = {

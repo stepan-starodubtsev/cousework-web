@@ -18,7 +18,7 @@ export const loginUser = async (data) => {
     };
     
     try {
-        const response = await fetch(`http://localhost:5001/api/auth/login`, config);
+        const response = await fetch(`http://206.189.52.50:5001/api/auth/login`, config);
         
         if (!response.ok) {
             const errorText = await response.text();
